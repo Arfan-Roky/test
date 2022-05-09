@@ -16,6 +16,10 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
+    res.send('Hello from heroku server')
+})
+
+app.get('/', (req, res) => {
     res.send('Hello from volunteer network');
 })
 
